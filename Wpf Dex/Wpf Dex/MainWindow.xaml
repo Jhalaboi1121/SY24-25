@@ -5,8 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Dex"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="515" Width="800">
     <Grid>
-        
+        <Image x:Name="RoyalStaff" HorizontalAlignment="Left" Height="144" Margin="368,39,0,0" VerticalAlignment="Top" Width="100" Source="/Screenshot 2024-10-28 121825.png" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.221"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="DeathCrossbow" HorizontalAlignment="Left" Height="201" Margin="93,13,0,0" VerticalAlignment="Top" Width="115" Source="/Screenshot 2024-10-28 121756.png" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="MythicalSword" HorizontalAlignment="Left" Height="165" Margin="644,18,0,0" VerticalAlignment="Top" Width="62" Source="/Screenshot 2024-10-28 121842.png" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.483"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Button x:Name="Button2" Content="Royal Staff Stats" HorizontalAlignment="Left" Margin="330,184,0,0" VerticalAlignment="Top" Height="56" Width="176" FontSize="18"/>
+        <Button x:Name="Button3" Content="Mythical Sword Stats" HorizontalAlignment="Left" Margin="558,184,0,0" VerticalAlignment="Top" Height="56" Width="210" FontSize="18"/>
+        <Button x:Name="Button1" Content="Death Crossbow Stats" HorizontalAlignment="Left" Margin="57,186,0,0" VerticalAlignment="Top" Height="64" Width="186" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Margin="57,326,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="186" Height="124"/>
     </Grid>
 </Window>
