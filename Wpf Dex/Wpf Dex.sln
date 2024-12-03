@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Wpf Dex", "Wpf Dex\Wpf Dex.vbproj", "{D1AB742E-2F89-4E7D-AE9C-4F448A1BAF0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1AB742E-2F89-4E7D-AE9C-4F448A1BAF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AB742E-2F89-4E7D-AE9C-4F448A1BAF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AB742E-2F89-4E7D-AE9C-4F448A1BAF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AB742E-2F89-4E7D-AE9C-4F448A1BAF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AE0DCF8-95DB-4BFE-B38F-BB0CF309B2E9}
+	EndGlobalSection
+EndGlobal
