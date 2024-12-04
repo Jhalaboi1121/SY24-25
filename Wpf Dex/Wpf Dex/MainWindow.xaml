@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Wpf_Dex"
         mc:Ignorable="d"
         Title="MainWindow" Height="515" Width="800">
-    <Grid>
+    <Grid Margin="0,10,0,0" OpacityMask="White" Background="#FFCBC089">
         <Image x:Name="RoyalStaff" HorizontalAlignment="Left" Height="144" Margin="368,39,0,0" VerticalAlignment="Top" Width="100" Source="/Screenshot 2024-10-28 121825.png" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
             <Image.RenderTransform>
                 <TransformGroup>
@@ -37,9 +37,40 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Button x:Name="Button2" Content="Royal Staff Stats" HorizontalAlignment="Left" Margin="330,184,0,0" VerticalAlignment="Top" Height="56" Width="176" FontSize="18"/>
-        <Button x:Name="Button3" Content="Mythical Sword Stats" HorizontalAlignment="Left" Margin="558,184,0,0" VerticalAlignment="Top" Height="56" Width="210" FontSize="18"/>
+        <Button x:Name="Button2" Content="Royal Staff Stats" HorizontalAlignment="Left" Margin="275,184,0,0" VerticalAlignment="Top" Height="66" Width="213" FontSize="18"/>
+        <Button x:Name="Button3" Content="Mythical Sword Stats" HorizontalAlignment="Left" Margin="519,184,0,0" VerticalAlignment="Top" Height="66" Width="249" FontSize="18"/>
         <Button x:Name="Button1" Content="Death Crossbow Stats" HorizontalAlignment="Left" Margin="57,186,0,0" VerticalAlignment="Top" Height="64" Width="186" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="57,326,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="186" Height="124"/>
+        <TextBox HorizontalAlignment="Left" Margin="57,297,0,0" TextWrapping="Wrap" Text="Damage-179&#xD;&#xA;Range-79&#xD;&#xA;Atk. Speed-0.8 bps&#xD;&#xA;Level Req.-15" VerticalAlignment="Top" Width="186" Height="153" FontSize="20" FontWeight="Bold" Background="#FFCBC089"/>
+        <Image x:Name="DeathCrossbow1" HorizontalAlignment="Left" Height="191" Margin="93,-6,0,0" VerticalAlignment="Top" Width="112" Source="/Screenshot 2024-10-28 121756.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.696"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="RoyalStaff1" HorizontalAlignment="Left" Height="184" Margin="326,-1,0,0" VerticalAlignment="Top" Width="117" Source="/Screenshot 2024-10-28 121825.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.847"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="MythicalSword1" HorizontalAlignment="Left" Height="194" Margin="578,-6,0,0" VerticalAlignment="Top" Width="88" Source="/Screenshot 2024-10-28 121842.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.228"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBox HorizontalAlignment="Left" Margin="300,297,0,0" TextWrapping="Wrap" Text="Damage-164&#xD;&#xA;Range-38&#xD;&#xA;Atk. Speed-1.2 bps&#xD;&#xA;Level Req.-17" VerticalAlignment="Top" Width="188" Height="153" FontWeight="Bold" FontSize="20" Background="#FFCBC089"/>
     </Grid>
 </Window>
